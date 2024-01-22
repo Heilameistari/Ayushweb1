@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 130px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            padding-bottom: 10px;
+        }
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown a.dropbtn {
+            display: inline-block;
+        }
+        main {
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f2f2f2;
+        }
+        .profile-image {
+            float: right;
+            margin-right: 150px; /* Add some margin to separate the image from text */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ayushtseren Khash-Erdene</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Forsíða</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Verkefni</a>
+            <div class="dropdown-content">
+                <a href="verkefni.html">Verkefni 1</a>
+                <a href="team.html">Verkefni 2</a>
+                <a href="history.html">Verkefni 3</a>
+            </div>
+        </div>
+        <a href="ferilskra.html">Ferilskrá</a>
+    </nav>
+
+    <main>
+        <section>
+            <div class="profile-image">
+                <img src="Resume%20photo%202.jpg" height="300" alt="Profile Image">
+            </div>
+            <h2>Ferilskrá</h2>
+            <p>Nafn: Ayushtseren Khash-Erdene<br>
+                Sími: 778-0511<br>
+                Netfang: ayushtseren511@gmail.com<br>
+                Kennitala: 110501-3150<br>
+                Heimili: Nesvegur 17a, 340 Stykkishólmur</p>
+        </section>
+        <section>
+            <p><b>Starfsreynsla</b><br>
+                Tjaldsvæði og Golfskáli Stykkishólms (2016-2022)<br>
+                •	Vann á tjaldsvæðinu í sjö sumur. <br>
+                •	Vann við afgreiðsluni.  <br>
+                •	Stundaði almenn þrif. <br>
+                •	Hjálpaði golfmennina. 
+            </p>
+        </section>
+        <section>
+                <p>Ágústsson ehf.	<br>
+                •	Vann hjá Ágústssyni frá janúar 2021 til maí 2021. <br>
+                •	Flakaði á meðal tali 400 kg af fisk á dag. <br>
+                •	Vann við að hreynsa flökin. <br>
+                    •	Setti hrogn í tunnur og gerði það klárt fyrir afhendingar. <br></p>
+        </section>
+        <section>
+           <p>Heimilistæki ehf. (Síðan 2023)<br>              
+                •	Er að vinna á lagernum fyrir Heimilistæki sem er einn af stærstu raftækjaverslunum á Íslandi.  <br>
+                •	Afhendi vöru til fólks sem kaupir hluti á netinu.  <br>
+                •	Raða vörur inn sem koma á lagerinn. <br>  
+            </p>
+        </section>
+        <section>
+                <b>Menntun</b><br>
+                •	Er að stunda nám í vélaverkfræði hjá Háskóla Íslands.  <br>
+                •	Útskrifaðist úr náttúrufræðibraut hjá Fjölbrautaskóli Versturlands á Akranesi veturinn 2020. <br>
+                •	Útskrifaðist úr Grunnskóla Stykkishólms vorið 2017. <br>
+        </section>
+            <p>
+                <b>Hæfileikar</b><br>
+                •	Kann að tala íslensku, ensku og mongólsku. <br>
+                </p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ayushtseren Khash-Erdene. All rights reserved.</p>
+    </footer>
+</body>
+</html>    
+    
